@@ -82,7 +82,7 @@ vertical-align: middle;
 }
 
 .style4 {
-  text-align:center;
+  text-align: center;
   margin: 0 auto;
 }
 .row1 {
@@ -90,6 +90,23 @@ vertical-align: middle;
   width: 95%;
   margin-left: 10%;
 }
+
+@media only screen and (max-width: 1260px) {
+h2 {
+  font-size: 24px;
+}
+
+div.style3, p {
+  font-size: 16px;
+}
+p.style2 {
+  width: 75%;
+  text-align: justify;
+  margin: 0 auto;
+  height: 160px;
+}
+}
+
 /**
  *** SIMPLE GRID
  *** (C) ZACH COLE 2016
@@ -182,9 +199,11 @@ vertical-align: middle;
   .container {
     width: 80%;
   }
+
 }
 @media only screen and (min-width: 45em) {
   /* 720px */
+
   .col-1 {
     width: 4.33%;
   }
