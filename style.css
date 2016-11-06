@@ -120,11 +120,15 @@ p.style2 {
   width: 95%;
   text-align: justify;
   margin: 0 auto;
-  height: 240px;
+  height: 300px;
 }
 .style1 {
   height: 220px;
   width: 220px;
+}
+.style6 {
+  height: 25%;
+  width: 25%;
 }
 }
 
