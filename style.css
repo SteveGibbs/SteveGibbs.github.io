@@ -132,6 +132,9 @@ p.style2 {
 }
 }
 
+img:hover {
+  transform: scale(1.1);
+}
 /**
  *** SIMPLE GRID
  *** (C) ZACH COLE 2016
