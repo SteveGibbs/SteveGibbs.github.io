@@ -43,7 +43,7 @@ p {
 button {
   text-decoration: none;
 }
-.container1 {
+.container-w90 {
   width: 90%;
 }
 .container--image {
@@ -74,7 +74,7 @@ button {
   text-align: center;
   margin: 0 auto;
 }
-.row1 {
+.container--project {
   text-align: center;
   width: 95%;
   margin-left: 10%;
